@@ -90,25 +90,13 @@ img {
     background-color: rgb(246, 247, 191);
   }
     #lezioni .row>.left,
-#lezioni .row>.right {
-  display:block;
-  float: none;
-  margin: auto;
-  width: 100%;
-  padding-top: 15px;
-}
+#lezioni .row>.right, 
 #steps .row>.left,
 #steps .row>.central,
-#steps .row>.right {
-  display:block;
-  float: none;
-  margin: auto;
-  width: 100%;
-  padding-top: 15px;
-}
+#steps .row>.right, 
 #why .row>.first,
 #why .row>.second,
-#why .row>.third {
+#why .row>.third{
   display:block;
   float: none;
   margin: auto;
@@ -116,27 +104,12 @@ img {
   padding-top: 15px;
 }
 
-#lezioni .row img {
-  display: block;
-  width: 100px;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-}
-#steps .row img {
-  display: block;
-  width: 100px;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-}
-
+#lezioni .row img, 
+#steps .row img, 
 #why .row img {
-  /* per centrare orizzontalmente */
   display: block;
   width: 100px;
   height: auto;
   margin-right: auto;
   margin-left: auto;
-}
 }
