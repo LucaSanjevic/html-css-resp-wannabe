@@ -83,7 +83,7 @@ img {
   background-color: rgb(246, 247, 191);
   }
   .row {
-    width: 420px;
+    width: auto;
     width: 100%;
   }
   #why {
@@ -112,4 +112,48 @@ img {
   height: auto;
   margin-right: auto;
   margin-left: auto;
+}
+}
+
+/* VISUALIZZAZIONE TABLET */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #lezioni {
+  background-color: rgb(246, 247, 191);
+  }
+  .row {
+    width: auto;
+    width: 100%;
+  }
+  #why {
+    background-color: rgb(246, 247, 191);
+  }
+    #lezioni .row>.left,
+#lezioni .row>.right, 
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right, 
+#why .row>.first,
+#why .row>.second,
+#why .row>.third{
+  display:block;
+  float: none;
+  margin: auto;
+  width: 100%;
+  padding-top: 15px;
+}
+
+#lezioni .row img, 
+#steps .row img, 
+#why .row img {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
 }
